@@ -1,13 +1,13 @@
 # ssh log
 
 #  pip dependencies:
-- tailer
+- tailhead
 - mysql-connector-python
 - maxminddb
 - maxminddb-geolite2
 
 Install with the next one-liner:
-python -m pip install tailer mysql-connector-python maxminddb maxminddb-geolite2
+python -m pip install tailhead mysql-connector-python maxminddb maxminddb-geolite2
 
 #  SQL user
 Advised is a low privilage SQL user that only can insert new lines.
